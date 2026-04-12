@@ -8,13 +8,9 @@ body{
     background-size: cover;
     text-align: center;
 }
-h1,h2,h3,p,pre{
-    color:rgba(63, 41, 26, 0.694)
-}
-h2:hover , h3:hover{
-    background: #bd9885;
-    border-radius: 1px;
-    margin: auto;
+h1,h2,h3,h4,p,pre{
+    color:rgba(63, 41, 26, 0.694);
+    font-style: italic;;
 }
 nav{
     background:rgb(92, 48, 48);
@@ -35,7 +31,7 @@ nav li{
 
 nav a{
     color:white;
-    padding: 8px;
+    padding: 5px;
     text-decoration:none ;
     transition: 0.3s;
 }
@@ -47,17 +43,16 @@ main{
     padding: 5px;
 }
 table{
-    width: 80;
+    width: 100%;
     border-collapse: collapse;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 70px
 }
 th,td{
-    border: #181818 1px solid;
+    border: #3c2315db 5px solid;
     padding: 10px;
     text-align: center;
     color: #32180aab;
+    border-style: double;
 }
 table tr:hover{
     background: #bd9885;
