@@ -8,6 +8,8 @@ body{
     background-size: cover;
     text-align: center;
     background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
 }
 h1,h2,h3,h4,p,pre{
     color:rgba(63, 41, 26, 0.694);
