@@ -6,10 +6,13 @@ font-family: Arial;
 body{
     background-image:url("imge.jpg") ;
     background-size: cover;
-    text-align: center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     margin: 0;
+    min-height: 100dvh;
+    padding: 0;
+    text-align: center;
 }
 h1,h2,h3,h4,p,pre{
     color:rgba(63, 41, 26, 0.694);
